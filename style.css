@@ -17,7 +17,7 @@ html {
   background-color: hsl(0, 0%, 100%);
   margin-top: 40px;
   width: 375px;
-  height: auto;
+  height: 90vh;
   border-radius: 5%;
 }
 
@@ -38,4 +38,61 @@ input {
 
 h3 {
   color: hsl(184, 14%, 56%);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin: 15px;
+}
+button {
+  border: none;
+}
+.people > h3 {
+  margin-left: 15px;
+}
+
+.people > form {
+  margin-left: 15px;
+  margin-bottom: 40px;
+}
+
+.tip {
+  background-color: hsl(183, 100%, 15%);
+
+  border-radius: 5%;
+
+  width: 350px;
+  margin: 15px;
+}
+.amount {
+  padding-top: 20px;
+}
+.tip-flex {
+  margin-left: 15px;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  color: hsl(0, 0%, 100%);
+}
+.p {
+  margin-top: -10px;
+}
+.reset {
+  padding-bottom: 20px;
+  border: none;
+}
+.reset > button {
+  color: hsl(183, 100%, 15%);
+  background-color: hsl(172, 67%, 45%);
+  width: 80%;
+}
+.reset h3 {
+  color: hsl(183, 100%, 15%);
 }
